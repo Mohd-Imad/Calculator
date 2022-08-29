@@ -1,0 +1,33 @@
+<html>
+    <head>
+        <title>calculator</title>
+         <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+        <div class="heading"><h1>Calculator using JavaScript</h1></div>
+            <div class="formstyle">
+                    <input type="text" placeholder="0" id="output-screen" disabled>
+                    <button onclick="clearAll()">AC</button>
+                    <button id="clear" onclick="del()">DEL</button>
+                    <button id="mod" class="spcl_btn" onclick="display('%')">%</button>
+                    <button id="div" class="spcl_btn" onclick="display('/')">/</button>
+                    <button onclick="display('7')">7</button>
+                    <button onclick="display('8')">8</button>
+                    <button onclick="display('9')">9</button>
+                    <button id="mul" class="spcl_btn" onclick="display('*')">*</button>
+                    <button onclick="display('4')">4</button>
+                    <button onclick="display('5')">5</button>
+                    <button onclick="display('6')">6</button>
+                    <button id="sub" class="spcl_btn" onclick="display('-')">-</button>
+                    <button onclick="display('1')">1</button>
+                    <button onclick="display('2')">2</button>
+                    <button onclick="display('3')">3</button>
+                    <button id="add" class="spcl_btn" onclick="display('+')">+</button>
+                    <button onclick="display('0')">0</button>
+                    <button onclick="display('.')">.</button>
+                    <button id="equal_to" onclick="calculate('=')">=</button>
+                
+            </div>
+            <script src="./calc.js" type="text/javascript"></script>       
+    </body>
+</html>
